@@ -1,0 +1,35 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+
+
+  RewriteRule ^/?$ index.php/$1 [QSA,L]
+  RewriteRule ^home/?$ index.php/$1 [QSA,L]
+  RewriteRule ^about-us/?$ aboutus.php [QSA,L]
+  RewriteRule ^alumni-tree/?$ alumni-tree.php [QSA,L]
+
+  RewriteRule ^blog/?$ blogs.php [QSA,L]
+  RewriteRule ^blog/(.*)?$ blog_detail.php?id=$1 [L]
+
+
+  RewriteRule ^services/?$ services.php [QSA,L]
+  RewriteRule ^service/(.*)?$ service_detail.php?id=$1 [L]
+
+  RewriteRule ^casestudy/?$ case_study.php [QSA,L]
+  RewriteRule ^casestudy/(.*)?$ case_study_detail.php?id=$1 [L]
+
+  RewriteRule ^our-team/?$ team.php [QSA,L]
+  RewriteRule ^team/(.*)?$ team_detail.php?id=$1 [L]
+
+  RewriteRule ^career/?$ career.php [QSA,L]
+  RewriteRule ^career/(.*)?$ career_detail.php?id=$1 [L]
+
+
+  RewriteRule ^important-link/?$ important_link.php [QSA,L]
+  RewriteRule ^404/?$ 404.php [QSA,L]
+  
+  RewriteRule ^contact-us/?$ contact.php [QSA,L]
+
+</IfModule>
+ErrorDocument 404 /404.php
