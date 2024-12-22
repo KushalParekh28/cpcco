@@ -18,7 +18,7 @@ if (isset($_REQUEST['id']) && $_REQUEST['id'] != '') {
 <html lang="en">
     <head>
         <?php include("include/metatag.php"); ?>
-        <title><?php echo $s_detail['name'];  ?> | Services | <?php echo WEBAPP_NAME; ?></title>
+        <title><?php echo $s_detail['name']; ?> | Services | <?php echo WEBAPP_NAME; ?></title>
         <?php include("include/stylesheet.php"); ?>
     </head>
     <body class="home-2">
@@ -97,7 +97,7 @@ if (isset($_REQUEST['id']) && $_REQUEST['id'] != '') {
                                         }
                                     ?>
 
-                                        <img src="<?php echo $imageUrl; ?>" alt="<?php echo $s_detail['name']; ?>">
+                                        <img src="<?php echo $imageUrl; ?>" alt="<?php echo $s_detail['name']; ?> - Best CA Firm in India">
                                     </div>
                                     <div class="service-details">
                                         <div class="mb-20">

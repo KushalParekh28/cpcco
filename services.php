@@ -81,7 +81,7 @@
                                         </div>
                                     </div>
                                     <div class="service-img">
-                                        <img src="<?php echo $imageUrl; ?>" alt="<?php echo $s['name']; ?>">
+                                        <img src="<?php echo $imageUrl; ?>" alt="<?php echo $s['name']; ?> - Best CA Firm in India">
                                     </div>
                                 </div>
                             </div>

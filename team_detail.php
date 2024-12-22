@@ -18,7 +18,9 @@ if (isset($_REQUEST['id']) && $_REQUEST['id'] != '') {
 <html lang="en">
     <head>
         <?php include("include/metatag.php"); ?>
-        <title><?php echo $team_detail['team_name'];  ?> | <?php echo WEBAPP_NAME; ?></title>
+        <title><?php echo $team_detail['team_name']; ?> | Team | CPC & Company</title>
+        <meta name="description" content="Learn more about <?php echo $team_detail['team_name']; ?>, a key member of our team at CPC & Company, specializing in <?php echo $team_detail['position']; ?>.">
+        <meta name="keywords" content="CPC & Company, Team Member, <?php echo $team_detail['team_name']; ?>, CA Firm, Accounting, Financial Services">
         <?php include("include/stylesheet.php"); ?>
     </head>
     <body class="home-2">
@@ -54,7 +56,7 @@ if (isset($_REQUEST['id']) && $_REQUEST['id'] != '') {
                                         $imageUrl = '';
                                     }
                                 ?>
-                                    <img class="img-responsive" src="<?php echo $imageUrl; ?>" alt="<?php echo $team_detail['team_name']; ?>">
+                                    <img class="img-responsive" src="<?php echo $imageUrl; ?>" alt="<?php echo $team_detail['team_name']; ?> - Best CA Firm in India">
                                 </div>
                                 <ul class="social-icon">
                                     <?php if (!empty($team_detail["twitter_link"])) { ?>

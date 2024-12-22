@@ -61,7 +61,7 @@ if (isset($_REQUEST['id']) && $_REQUEST['id'] != '') {
                                             $imageUrl = '';
                                         }
                                         ?>
-                                        <img src="<?php echo $imageUrl; ?>"  alt="<?php echo $case_detail['title']; ?>">
+                                        <img src="<?php echo $imageUrl; ?>" alt="<?php echo $case_detail['title']; ?> - Best CA Firm in India">
                                     </div>
                                     <div class="case-details">
                                         <h3 class="mb-20"><?php echo $case_detail['title']; ?></h3>

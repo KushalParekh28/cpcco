@@ -46,7 +46,7 @@
                         <div class="col-md-6 col-lg-4">
                             <div class="pricing-item wow active fadeInUp" data-wow-delay=".25s">
                                 <div class="pricing-shape">
-                                    <img src="assets/img/shape/08.png" alt="">
+                                    <img src="assets/img/shape/08.png" alt="Career Opportunities at CPC & Company - Best CA Firm in India">
                                 </div>
                                
                                 <div class="pricing-amount">

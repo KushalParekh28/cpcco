@@ -107,7 +107,7 @@ Civil Char Rasta, Surat – 385 002</p>
                         <div class="row g-4">
                             <div class="col-lg-5">
                                 <div class="contact-img">
-                                    <img src="assets/img/contact/01.jpeg" alt="CPC Contact us">
+                                    <img src="assets/img/contact/01.jpeg" alt="Contact CPC & Company - Best CA Firm in India">
                                 </div>
                             </div>
                             <div class="col-lg-7">

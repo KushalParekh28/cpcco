@@ -14,9 +14,9 @@ if($page_detail)
 }
 else
 {
-  	$title = 'CPC & Company';
-    $keywords ='CA firm, accounting, finance';
-    $description ='CPC & Company is a leading CA firm providing comprehensive accounting and financial services.';
+  	$title = 'CPC & Company - Best CA Firm in India';
+    $keywords ='Best CA firm, accounting, finance, top CA services';
+    $description ='CPC & Company is a leading CA firm providing the best accounting and financial services, optimized for search engines.';
 }
 ?>
 

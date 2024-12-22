@@ -825,7 +825,7 @@ label {
 #scroll-top.active{
   opacity: 1;
   visibility: visible;
-  bottom: 20px;
+  bottom: 75px;
 }
 
 
@@ -1752,7 +1752,7 @@ label {
 
 @media all and (max-width: 991px) {
   .hero-single .hero-content .hero-title {
-    font-size: 50px;
+    font-size: 48px;
   }
 }
 
@@ -2211,7 +2211,7 @@ label {
   box-shadow: var(--box-shadow);
   position: absolute;
   left: -30px;
-  bottom: 40px;
+  bottom: -25px;
   padding: 30px 20px;
   border-radius: 20px;
   text-align: center;
@@ -2312,6 +2312,7 @@ label {
 
   .about-experience{
     left: -7px;
+    bottom: -50px;
   }
 
   .about-list li{
@@ -2321,6 +2322,7 @@ label {
   .about-list .icon img{
     width: 80px;
   }
+
 }
 /*====================
 21. Feature css 
@@ -2451,6 +2453,7 @@ label {
   text-align: center;
   border-radius: 50%;
   position: relative;
+  box-shadow: 0 3px 4px rgba(24, 88, 137, 0.7), 0 5px 10px rgba(24, 88, 137, 0.5); /* Updated shadow for 3D effect */
 }
 
 .service-icon::before{
@@ -6512,4 +6515,15 @@ label {
         1px 1px 0px rgba(0, 0, 0, 0.2), /* Shadow for depth */
         2px 2px 0px rgba(0, 0, 0, 0.2), 
         3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Add this media query for mobile view */
+@media (max-width: 767px) {
+    .copyright-text {
+        text-align: center; /* Center align the copyright text */
+    }
+
+    .text-end.copyright-text {
+        text-align: center !important; /* Center align the design credit text */
+    }
 }

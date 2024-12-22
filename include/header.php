@@ -119,8 +119,7 @@
                 </div>
                 <div class="sidebar-about">
                     <h4>About Us</h4>
-                    <p>There are many variations of passages available sure there majority have suffered alteration in
-                        some form by inject humour or randomised words which don't look even slightly believable.</p>
+                    <p>C P C & Company (hereinafter referred to as ‘CPC’) was established in 2009 and has grown to meet the challenges of the complex world of business and emerging technologies. We cater to the evolving needs of the industry and our clients.</p>
                 </div>
                 <div class="sidebar-contact">
                     <h4>Contact Info</h4>

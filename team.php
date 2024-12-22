@@ -62,7 +62,7 @@
                         <div class="col-md-6 col-lg-3">
                             <div class="team-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="team-img">
-                                    <img class="img-responsive" src="<?php echo $imageUrl; ?>" alt="<?php echo $p["team_name"]; ?>">
+                                    <img class="img-responsive" src="<?php echo $imageUrl; ?>" alt="<?php echo $p["team_name"]; ?> - Best CA Firm in India">
                                     <div class="team-social-wrap">
                                         <div class="team-social-btn">
                                             <button type="button"><i class="far fa-share-alt"></i></button>

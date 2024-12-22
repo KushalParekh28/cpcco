@@ -65,7 +65,7 @@
                                 <div class="case-img">
                                     <a class="popup-img case-link" href="<?php echo $imageUrl; ?>"> <i
                                         class="fal fa-plus"></i></a>
-                                    <img class="img-fluid" src="<?php echo $imageUrl; ?>" alt="<?php echo $b['title']; ?>">
+                                    <img class="img-fluid" src="<?php echo $imageUrl; ?>" alt="<?php echo $b['title']; ?> - Best CA Firm in India">
                                     <div class="case-btn">
                                         <a href="casestudy/<?php echo $b['title_slug']; ?>"><i class="far fa-arrow-right"></i></a>
                                     </div>

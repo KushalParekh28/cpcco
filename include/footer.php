@@ -119,16 +119,11 @@
                 <div class="row">
                     <div class="col-md-6 align-self-center">
                         <p class="copyright-text">
-                            &copy; Copyright <span id="date"></span> <a href="#"> CPC & CO. </a> All Rights Reserved.
+                            &copy; Copyright <span id="date"></span> <a href="/"> CPC & CO. </a> All Rights Reserved.
                         </p>
                     </div>
-                    <div class="col-md-6 align-self-center">
-                        <ul class="footer-social">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-x-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                        </ul>
+                    <div class="col-md-6 text-end copyright-text">
+                        Design & Developed by <a href="https://www.navkartechnosoft.com/" target="_blank">Navkar Technosoft</a>
                     </div>
                 </div>
             </div>

@@ -57,7 +57,7 @@
                         <div class="col-md-6 col-lg-4">
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="<?php echo $imageUrl; ?>" alt="<?php echo $b['title']; ?>">
+                                    <img src="<?php echo $imageUrl; ?>" alt="<?php echo $b['title']; ?> - Best CA Firm in India">
                                     <div class="blog-date">
                                         <strong><?php echo date('d', strtotime($b['date'])); ?></strong>
                                         <span><?php echo date('M', strtotime($b['date'])); ?></span>

@@ -31,8 +31,8 @@
                         <div class="col-lg-6">
                             <div class="about-left wow fadeInLeft" data-wow-delay=".25s">
                                 <div class="about-img">
-                                    <img class="img-1" src="assets/img/about/01.jpg" alt="">
-                                    <img class="img-2" src="assets/img/about/02.jpg" alt="">
+                                    <img class="img-1" src="assets/img/about/01.jpg" alt="CPC & Company - Best CA Firm in India">
+                                    <img class="img-2" src="assets/img/about/02.jpg" alt="CPC & Company - Best CA Firm in India">
                                     <div class="about-img-shape">
                                         <img src="assets/img/shape/06.png" alt="">
                                     </div>

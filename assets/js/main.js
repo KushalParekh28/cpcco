@@ -1,11 +1,3 @@
-/*=====================================================
-Template Name   : Taxrio
-Description     : Tax Advisor & Consulting HTML5 Template
-Author          : Lunartemp
-Version         : 1.0
-=======================================================*/
-
-
 (function ($) {
     
     "use strict";
